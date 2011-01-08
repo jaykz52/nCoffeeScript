@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("nCoffeeScript")]
-[assembly: AssemblyDescription("Coffeescript compiler for Windows.")]
+[assembly: AssemblyDescription("CoffeeScript compiler for Windows.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jason Kozemczak")]
 [assembly: AssemblyProduct("nCoffeeScript")]

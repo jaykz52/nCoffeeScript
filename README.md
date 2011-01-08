@@ -17,11 +17,7 @@ By default, nCoffeeScript wraps the compiled javascript in a safety function to 
     ncoffeescript.exe foo.coffee /nowrap
 
 # Dependencies
-nCoffeeScript currently requires the .NET Framework v3.5. Since the program doesn't use any 3.5 features, I plan to target .NET 2.0 ASAP. 
-
-nCoffeeScript also requires that the CScript scripting engine be installed on the system. CScript is standard on all modern MS operating systems. 
-
-Additionally, nCoffeeScript requires write access to the directory it lives in.  This may change in the future, but for the time being, we'll just deal with it.
+nCoffeeScript requires the .NET Framework v2.0. The program uses Rhino (via IKVM.NET) to actually compile the coffeescript in a JS environment. These dependencies are located in the "lib" folder, so it should "just work."  To make ncoffeescript.exe more portable, these DLL dependencies could be installed in the GAC.
 
 # Get the source
 <https://github.com/jaykz52/nCoffeeScript>

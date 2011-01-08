@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.IO;
 
@@ -9,7 +8,7 @@ namespace nCoffeeScript
     class Program
     {
         // TODO: I need to handle when the compiler can't compile!!!
-        // TODO: add code to handle a directory 
+        // TODO: should we throw some sort of Dependency Exception early on if Cscript doesn't exist?
         static void Main(string[] args)
         {
             bool noWrap = false;
